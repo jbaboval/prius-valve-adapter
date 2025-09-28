@@ -6,7 +6,7 @@ Vintage Air systems ship with a simple on/off heater control valve which stops c
 
 Chevy GenV small block engines (L86/LT1, L83, etc) require constant flow through the heater loop, so a simple on/off valve is not suitable.
 
-2nd Generation Toyota Prius' (2004-2009) have an ideal three-way coolant valve that is relatively inexpensive. (Sub-$20), but uses an ECU controlled motor.
+2nd Generation Toyota Prius' (2004-2009) have an ideal three-way coolant valve that is relatively inexpensive. (Sub-$20), but uses an ECU controlled motor. (Part number 16670-21010)
 
 This adapter connects the Vintage Air one-wire on/off signal to the five-wire Prius valve.
 
