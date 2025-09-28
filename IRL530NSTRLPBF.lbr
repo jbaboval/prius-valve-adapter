@@ -1,0 +1,174 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DPAK508P1524X483-3N">
+<wire x1="-5.34" y1="-3.24" x2="-5.34" y2="6.42" width="0.12" layer="51"/>
+<wire x1="-5.34" y1="-3.24" x2="5.32" y2="-3.24" width="0.12" layer="21"/>
+<wire x1="5.34" y1="6.42" x2="5.34" y2="-3.24" width="0.12" layer="51"/>
+<wire x1="3.45" y1="8.54" x2="-3.45" y2="8.54" width="0.05" layer="39"/>
+<wire x1="-3.32" y1="-8.54" x2="3.32" y2="-8.54" width="0.05" layer="39"/>
+<circle x="-4.05" y="-6.8" radius="0.25" width="0" layer="21"/>
+<text x="-5.20957" y="9.11676" size="1.27235" layer="25">&gt;NAME</text>
+<text x="-5.27303" y="-10.3954" size="1.27557" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.30884" y1="0.200535" x2="3.3" y2="8.4" layer="29"/>
+<rectangle x1="-0.803707" y1="5.92733" x2="0.8" y2="8.15" layer="31"/>
+<rectangle x1="-3.06203" y1="3.16176" x2="-1.45" y2="5.4" layer="31"/>
+<rectangle x1="-0.802624" y1="3.15979" x2="0.8" y2="5.4" layer="31"/>
+<rectangle x1="1.45402" y1="3.15837" x2="3.05" y2="5.4" layer="31"/>
+<rectangle x1="-3.05842" y1="0.400325" x2="-1.45" y2="2.65" layer="31"/>
+<rectangle x1="-0.803226" y1="0.400923" x2="0.8" y2="2.65" layer="31"/>
+<rectangle x1="1.45551" y1="0.400612" x2="3.05" y2="2.65" layer="31"/>
+<rectangle x1="-3.06641" y1="5.93177" x2="-1.45" y2="8.15" layer="31"/>
+<rectangle x1="1.454" y1="5.91625" x2="3.05" y2="8.15" layer="31"/>
+<wire x1="3.45" y1="6.67" x2="3.45" y2="8.54" width="0.05" layer="39"/>
+<wire x1="-3.45" y1="8.54" x2="-3.45" y2="6.67" width="0.05" layer="39"/>
+<wire x1="5.59" y1="-3.49" x2="5.59" y2="6.67" width="0.05" layer="39"/>
+<wire x1="-5.59" y1="6.67" x2="-5.59" y2="-3.49" width="0.05" layer="39"/>
+<wire x1="5.59" y1="6.67" x2="3.45" y2="6.67" width="0.05" layer="39"/>
+<wire x1="-3.45" y1="6.67" x2="-5.59" y2="6.67" width="0.05" layer="39"/>
+<wire x1="-3.32" y1="-3.49" x2="-3.32" y2="-8.54" width="0.05" layer="39"/>
+<wire x1="3.32" y1="-8.54" x2="3.32" y2="-3.49" width="0.05" layer="39"/>
+<wire x1="-5.59" y1="-3.49" x2="-3.32" y2="-3.49" width="0.05" layer="39"/>
+<wire x1="3.32" y1="-3.49" x2="5.59" y2="-3.49" width="0.05" layer="39"/>
+<smd name="1" x="-2.54" y="-6.4" dx="1.06" dy="3.78" layer="1" roundness="53"/>
+<smd name="3" x="2.54" y="-6.4" dx="1.06" dy="3.78" layer="1" roundness="53"/>
+<smd name="2" x="0" y="4.29" dx="6.39" dy="8" layer="1" stop="no" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="IRL530NSTRLPBF">
+<text x="5.10565" y="0" size="1.27642" layer="95">&gt;NAME</text>
+<text x="5.09086" y="-2.54543" size="1.27271" layer="96">&gt;VALUE</text>
+<wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.6576" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.032" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="1.905" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-0.635" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.762" x2="2.032" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="0.762" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="3.302" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="0" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="0.254" x2="-2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="0.254" x2="-2.032" y2="0" width="0.3048" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-0.889" y2="-0.254" width="0.3048" layer="94"/>
+<wire x1="-0.889" y1="-0.254" x2="-0.889" y2="0.254" width="0.3048" layer="94"/>
+<wire x1="-0.889" y1="0.254" x2="-1.905" y2="0" width="0.3048" layer="94"/>
+<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="-1.53117" y="2.55195" size="0.816628" layer="97">D</text>
+<text x="-4.84936" y="-1.27614" size="0.816734" layer="97">G</text>
+<rectangle x1="-2.80136" y1="-2.5467" x2="-2.032" y2="-1.27" layer="94"/>
+<rectangle x1="-2.80365" y1="1.27439" x2="-2.032" y2="2.54" layer="94"/>
+<rectangle x1="-2.80535" y1="-0.892611" x2="-2.032" y2="0.889" layer="94" rot="R180"/>
+<wire x1="-0.762" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-2.032" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-2.286" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<text x="-1.27611" y="-3.82829" size="0.816703" layer="97">S</text>
+<wire x1="3.302" y1="0.762" x2="3.556" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.762" x2="1.778" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="0.762" x2="1.524" y2="0.508" width="0.1524" layer="94"/>
+<pin name="G" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="D" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IRL530NSTRLPBF" prefix="Q">
+<description>Single N-Channel 100 V 0.150 Ohm 34 nC 3.8 W Silicon SMT Mosfet - TO-263-3 </description>
+<gates>
+<gate name="G$1" symbol="IRL530NSTRLPBF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DPAK508P1524X483-3N">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Infineon"/>
+<attribute name="DESCRIPTION" value="Single N-Channel 100 V 0.150 Ohm 34 nC 3.8 W Silicon SMT Mosfet - TO-263-3"/>
+<attribute name="PACKAGE" value="D2PAK"/>
+<attribute name="PRICE" value="0.73 USD"/>
+<attribute name="MP" value="IRL530NSTRLPBF"/>
+<attribute name="AVAILABILITY" value="Good"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
